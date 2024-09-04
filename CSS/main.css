@@ -1,3 +1,4 @@
+/* 공통 */
 @font-face {
   font-family: "SpoqaHanSansNeo-Regular";
   src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
@@ -39,6 +40,10 @@ body {
   display: none;
 }
 
+br .only-w{
+    display: none;
+}
+
 .title {
   font-size: 2.4rem;
   line-height: 3rem;
@@ -61,9 +66,6 @@ body {
   color: var(--white-color);
 }
 
-br .only-w{
-    display: none;
-}
 
 /* header */
 header {
@@ -109,26 +111,15 @@ nav h1 img {
   margin-top: 3rem;
 }
 
-.main-img {
-  width: 32.6rem;
-  height: 19rem;
-  object-fit: cover;
-  object-position: 67% 33%;
-  border-radius: 1.8rem;
-  margin: 4rem 3.2rem;
-  box-shadow: 10px 10px 20px 0px #00000040;
-}
+/* main */
 
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   background-color: white;
   padding-top: 79.4rem;
-}
-
-.main-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 
 .main-img {
@@ -156,14 +147,14 @@ main {
   text-align: center;
 }
 
-.main-subtitle {
+.main-content2 {
   padding: 0 3.2rem 2rem;
   text-align: center;
   font-size: 1.6rem;
   line-height: 2rem;
   letter-spacing: -0.4px;
 }
-.main-subtitle strong {
+.main-content2 strong {
   color: var(--orange-color);
 }
 
@@ -173,7 +164,7 @@ main {
   flex-direction: row;
   width: 100vw;
   padding: 2rem 0 6rem 3.2rem;
-  overflow: hidden;
+  overflow-x: auto;
 }
 
 .img-container img {
@@ -184,13 +175,13 @@ main {
   box-shadow: 10px 10px 20px 0px #00000040;
 }
 
-.main-content2 {
+.main-content3 {
   padding: 0 3.2rem 3rem;
   letter-spacing: 0.6px;
 }
 
 .learn-btn {
-  margin: 0 3.2rem 33rem auto;
+  margin: 0 3.2rem 33rem 23.2rem;
 }
 
 .main-email {
@@ -239,15 +230,15 @@ main {
 }
 
 .hodu-face {
-  min-width: 39rem;
-  height: 24rem;
   position: relative;
 }
 
 .hodu-face::after {
   content: "";
   background: rgba(242, 233, 216, 0.6);
+  min-width: 39rem;
   width: 100%;
+  min-height: 24rem;
   height: 100%;
   position: absolute;
   top: 0;
@@ -255,6 +246,7 @@ main {
 }
 
 .hodu-face img {
+    width: 100vw;
   min-width: 39rem;
   height: 24rem;
   object-fit: cover;
@@ -278,15 +270,12 @@ footer {
 
 .footer-logo {
   grid-area: logo;
+  width: 11.2rem;
+  margin: 3rem 0 0 2rem;
 }
 
 .footer-btn {
   grid-area: btn;
-}
-
-footer img {
-  width: 11.2rem;
-  margin: 3rem 0 0 2rem;
 }
 
 footer .footer-sns {
