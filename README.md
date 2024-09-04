@@ -21,7 +21,7 @@
 |![image](https://github.com/user-attachments/assets/5f79322b-f752-48ab-a83a-56a07bb1d1a5)|![image](https://github.com/user-attachments/assets/93982365-ae23-417d-b99e-75a0fe4941dd)|
 
 ## ❕느낀점
-시네마틱 태그....와.. CSS를 같이 병행하기가 굉장히 힘들다 ㅠㅠ..
+시네마틱 태그....와.. CSS를 같이 병행하기가 굉장히 힘들다. 마크업 하는데도 멈칫멈칫.. 정말 아는만큼 보이는구나 ㅠㅠ
 
 div를 최대한 사용하지 않으려했는데, CSS를 하면서 요소들을 감싸주는 wrap들이 많이 필요하다보니, div사용이 꽤나 많아진 것같은데...
 
