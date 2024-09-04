@@ -40,13 +40,7 @@
 
   /* header */
   header {
-    background-color: var(--main-color);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
     height: 90rem;
-    overflow: hidden;
   }
 
   nav {
@@ -59,8 +53,6 @@
 
   nav .only-w button{
     margin-right: 3rem;
-    font-size: 1.6rem;
-    line-height: 2rem;
   }
 
   nav .only-w .orange-btn{

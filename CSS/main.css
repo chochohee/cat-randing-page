@@ -75,7 +75,6 @@ header {
   left: 0;
   width: 100vw;
   height: 80rem;
-  overflow: hidden;
 }
 
 nav {
@@ -83,6 +82,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 }
 
 nav h1 img {
