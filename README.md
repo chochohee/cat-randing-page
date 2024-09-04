@@ -11,9 +11,8 @@
 ### 📱mobile
 
 |vew|vew2|modal|aside|
-|:----:|:----:||:----:|:----:|
+|:----:|:----:|:----:|:----:|
 |![image](https://github.com/user-attachments/assets/991295f2-fb18-47d5-a5a1-c5ea8e5fafe2)|![image](https://github.com/user-attachments/assets/27971346-f56b-4118-b417-ba1e8f4a6c6e)|![image](https://github.com/user-attachments/assets/a230dd7d-5675-4d63-87fe-068387bf77e5)|![image](https://github.com/user-attachments/assets/3d09ce6b-f82b-4aaf-a7d3-cacd51d62158)|
-
 
 ### 🖥Web
 
