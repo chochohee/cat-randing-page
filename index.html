@@ -123,25 +123,52 @@
         </div>
         <div class="w-email-sendwrap">
           <input type="email" placeholder="Enter your e-mail address" />
-          <button class="orange-btn">Subscribe</button>
+          <button class="orange-btn" id="show-btn">Subscribe</button>
         </div>
       </article>
       <div class="hodu-face">
         <img src="./images/img_5.jpg" alt="얼굴 가까이 찍은 고양이 호두" />
       </div>
-      <a class="up-btn only-w" href="#" alt="위로가기"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path id="up" d="M12.35 25.6833L20 18.0499L27.65 25.6833L30 23.3333L20 13.3333L10 23.3333L12.35 25.6833Z" fill="#C4C4C4"/>
+      <a class="up-btn only-w" href="#" alt="위로가기"
+        ><svg
+          width="40"
+          height="40"
+          viewBox="0 0 40 40"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            id="up"
+            d="M12.35 25.6833L20 18.0499L27.65 25.6833L30 23.3333L20 13.3333L10 23.3333L12.35 25.6833Z"
+            fill="#C4C4C4"
+          />
         </svg>
-        </a>
+      </a>
     </main>
 
     <footer>
-      <a href="#"><img src="./images/logo.png" alt="호두" class="footer-logo"></a>
+      <a href="#"
+        ><img src="./images/logo.png" alt="호두" class="footer-logo"
+      /></a>
       <ul class="footer-sns">
-        <li><button><img src="./images/blog.svg" alt="블로그 바로가기" /></button></li>
-        <li><button><img src="./images/instagram.svg" alt="인스타그램 바로가기" /></button></li>
-        <li><button><img src="./images/facebook.svg" alt="페이스북 바로가기" /></button></li>
-        <li><button><img src="./images/youtube.svg" alt="유튜브 바로가기" /></button></li>
+        <li>
+          <button><img src="./images/blog.svg" alt="블로그 바로가기" /></button>
+        </li>
+        <li>
+          <button>
+            <img src="./images/instagram.svg" alt="인스타그램 바로가기" />
+          </button>
+        </li>
+        <li>
+          <button>
+            <img src="./images/facebook.svg" alt="페이스북 바로가기" />
+          </button>
+        </li>
+        <li>
+          <button>
+            <img src="./images/youtube.svg" alt="유튜브 바로가기" />
+          </button>
+        </li>
       </ul>
       <ul class="footer-btn only-m">
         <li><button>About</button></li>
@@ -150,15 +177,31 @@
         <li><button>Terms of Use</button></li>
       </ul>
     </footer>
-    <div class="dialog-modal">
+    <dialog class="dialog-modal" id="dialog">
       <div class="modal-textarea">
         <img src="./images/cat-subscribe.png" alt="귀여운 고양이 호두 얼굴" />
         <h1 class="title">Thank you!</h1>
         <p class="content">
-          Lorem Ipsum is simply dummy text of the printing industry.
+          Lorem Ipsum is simply dummy <br class="only-m"> text of the printing industry.
         </p>
       </div>
-      <button class="orange-btn">OK! I Love HODU</button>
-    </div>
+      <button class="orange-btn" id="close-btn">OK! I Love HODU</button>
+    </dialog>
+
+    <script>
+      const dialog = document.getElementById("dialog");
+      const showModalBtn = document.getElementById("show-btn");
+      const closeBtn = document.getElementById("close-btn");
+
+      showModalBtn.addEventListener("click", () => {
+        dialog.show();
+        console.log("open");
+      });
+
+      closeBtn.addEventListener("click", () => {
+        dialog.close();
+        console.log("close");
+      });
+    </script>
   </body>
 </html>

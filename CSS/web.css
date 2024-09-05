@@ -33,10 +33,9 @@
     border-radius: 4rem;
   }
 
-  body{
-    overflow-x: hidden ;
+  body {
+    overflow-x: hidden;
   }
-
 
   /* header */
   header {
@@ -293,28 +292,29 @@
     position: absolute;
     bottom: 30.6rem;
     left: 70rem;
-    display: none;
   }
 
   .modal-textarea img {
     width: 11rem;
     height: 11.2rem;
-    margin: 6rem 24.5rem 0;
+    margin: auto;
+    margin-top: 6rem;
   }
 
   .modal-textarea .title {
-    padding: 2.4rem 19.4rem 1.2rem;
     font-size: 3.6rem;
+    margin: auto;
+    padding-top: 2.4rem;
   }
 
   .modal-textarea .content {
     text-align: center;
-    padding: 0 10.8rem 0 10.9rem;
+    margin: auto;
     letter-spacing: -1px;
   }
 
   .dialog-modal .orange-btn {
-    margin: 3.8rem 20.5rem 0 20.6rem;
     letter-spacing: -1px;
+    margin: 2.8rem 0 1rem 19.5rem;
   }
 }

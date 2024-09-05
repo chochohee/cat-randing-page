@@ -115,7 +115,6 @@ main {
 .main-content1 {
   padding: 0 5.8rem 3rem 5.6rem;
   text-align: center;
-  
 }
 
 .main-container1 button {
@@ -257,7 +256,7 @@ main {
 }
 
 footer {
-    overflow-x: hidden;
+  overflow-x: hidden;
   background-color: var(--white-color);
   height: 17.8rem;
   width: 100vw;
@@ -311,7 +310,7 @@ footer ul li img {
 
 .sidebar {
   width: 75vw;
-  height: 100vh;
+  height: 79.4rem;
   background-color: #263140;
   position: absolute;
   top: 0;
@@ -346,15 +345,18 @@ footer ul li img {
   background-color: #f2e9d8;
   position: absolute;
   bottom: 38rem;
-  left: 5rem;
+  margin: auto;
   z-index: 1000;
-  display: none;
 }
 
 .modal-textarea {
   background: url(../images/modal-bg-img.png);
   background-size: cover;
   border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .modal-textarea img {
@@ -364,15 +366,15 @@ footer ul li img {
 }
 
 .modal-textarea .title {
-  padding: 0 8.3rem 1rem 8.4rem;
   color: var(--orange-color);
+  margin: auto;
 }
 
 .modal-textarea .content {
   text-align: center;
-  padding: 0 5rem 0 5.1rem;
+  padding-top: 1rem;
 }
 
 .dialog-modal .orange-btn {
-  margin: 2.8rem 6.8rem 3rem 6.8rem;
+  margin: 2.8rem 0 3rem 5.9rem;
 }
