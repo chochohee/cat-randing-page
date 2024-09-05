@@ -66,7 +66,7 @@ br .only-w {
 header {
   background-color: var(--main-color);
   width: 100vw;
-  height: 10rem;
+  height: 7.6rem;
   position: sticky;
   top: 0;
 }
