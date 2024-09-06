@@ -115,7 +115,7 @@ header nav .only-m button {
 }
 
 /* sidebar */
-header nav ul .header-btns{
+header nav ul .header-btns {
   display: flex;
   justify-content: start;
   align-items: start;

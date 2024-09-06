@@ -47,24 +47,28 @@
 
   header {
     height: 10.2rem;
-    padding: 0 35rem 0 32rem;
+    padding: 0 auto 0 auto;
   }
 
   header nav .main-logo {
+    min-width: 9.2rem;
     width: 13rem;
     padding-top: 3.1rem;
+    margin-left: 32rem;
   }
 
   /* sidebutton */
   header nav ul .header-btns {
-    display: block;
+    display: flex;
+    justify-content: flex-end;
     background-color: transparent;
+    width: auto;
     height: 10.2rem;
+    margin-right: 32rem;
   }
 
   header nav ul .header-btns ul {
     display: flex;
-    justify-content: end;
   }
 
   header nav ul .header-btns .nav-btn {
@@ -75,7 +79,7 @@
   }
 
   header nav ul .header-btns li .orange-btn {
-    margin: 2.6rem 0 0 4rem;
+    margin: 2.6rem auto 0 4rem;
     display: block;
   }
 
@@ -109,6 +113,7 @@
     margin: 4rem 0 0 32rem;
   }
   .container1 img {
+    min-width: 19.7rem;
     width: 41.5rem;
     height: 76.6rem;
     margin: 13.4rem 34rem 0 0;
@@ -121,14 +126,17 @@
 
   .container2 .container2-wrap {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     margin: 0 32rem;
   }
 
   .container2 .container2-wrap img {
-    width: 66rem;
-    height: 39rem;
+    min-width: 32.6rem;
+    width: 100%;
+    height: 100%;
+    max-height: 39rem;
     border-radius: 3rem;
+    object-fit: cover;
   }
 
   .container2 .container2-wrap .title {
@@ -181,7 +189,8 @@
 
   .container4 {
     display: flex;
-    margin: 0 49.1rem 0 49.1rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .container4 .sub-title {
@@ -216,21 +225,16 @@
     bottom: 18.4rem;
     right: 2.4rem;
     border: solid 1px #c4c4c4;
-    background-color: rgba(rgba(255, 255, 255, 0.8));
     border-radius: 100%;
+    background: rgba(255, 255, 255, 0.8);
     z-index: 1000;
   }
 
   .up-btn svg {
     width: 5rem;
     height: 5rem;
-    background-color: rgba(rgba(255, 255, 255, 0.8));
   }
 
-  .up-btn:hover {
-    cursor: pointer;
-    border: solid 1px #767676;
-  }
   a svg:hover #up {
     fill: #767676;
   }
