@@ -234,4 +234,55 @@
   a svg:hover #up {
     fill: #767676;
   }
+
+  /* article */
+  .subscribe {
+    bottom: calc(24.6rem + 16rem);
+    width: 128rem;
+    height: 20rem;
+    border-radius: 3rem;
+    display: flex;
+  }
+
+  .subscribe .subscribe-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .subscribe .subscribe-wrap .title {
+    padding: 5rem 0 0 5.8rem;
+    font-size: var(--middle-fontsize);
+    line-height: var(--middle-fontsize);
+  }
+
+  .subscribe .subscribe-wrap .content {
+    padding: 1.8rem 0 5rem 5.8rem;
+    font-size: 1.4rem;
+    line-height: 1.753rem;
+  }
+
+  .subscribe .subscribe-wrap2 input[type="email"] {
+    width: 53rem;
+    height: 6rem;
+    margin: 7rem 5.8rem 7rem 14.3rem;
+
+    background-size: 2.4rem;
+    background-position-x: 3rem;
+    background-position-y: 1.8rem;
+
+    position: relative;
+  }
+
+  .subscribe .subscribe-wrap2 input[type="email"]::placeholder {
+    padding-left: 6.8rem;
+    font-size: var(--small-font-size);
+    line-height: var(--small-lineheight);
+  }
+
+  .subscribe .subscribe-wrap2 button {
+    position: absolute;
+    top: 50%;
+    right: 3.5rem;
+    transform: translate(0, -50%);
+  }
 }
