@@ -167,7 +167,7 @@
   .container3 .container3-wrap2 {
     display: flex;
     justify-content: center;
-    padding: 8.8rem 0 9rem 0 ;
+    padding: 8.8rem 0 9rem 0;
   }
 
   .container3 .container3-wrap2 img {
@@ -179,24 +179,59 @@
 
   /* section4 */
 
-.container4 {
+  .container4 {
     display: flex;
     margin: 0 49.1rem 0 49.1rem;
   }
-  
+
   .container4 .sub-title {
     font-size: var(--small-font-size);
     line-height: var(--small-lineheight);
     text-indent: var(--text-indent);
     margin-right: 5.2rem;
   }
-  
+
   .container4 .cntainer4-wrap {
     display: flex;
   }
-  
+
   .container4 .container4-wrap button {
     margin: 0.7rem 0 0 0;
   }
 
+  /* section5 */
+  .container5 .img-wrap {
+    height: 34rem;
+    margin-top: 19.6rem;
+  }
+
+  .container5 .img-wrap img {
+    object-position: 62% 38%;
+  }
+
+  .container5 .up-btn {
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    bottom: 18.4rem;
+    right: 2.4rem;
+    border: solid 1px #c4c4c4;
+    background-color: rgba(rgba(255, 255, 255, 0.8));
+    border-radius: 100%;
+    z-index: 1000;
+  }
+
+  .up-btn svg {
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(rgba(255, 255, 255, 0.8));
+  }
+
+  .up-btn:hover {
+    cursor: pointer;
+    border: solid 1px #767676;
+  }
+  a svg:hover #up {
+    fill: #767676;
+  }
 }
