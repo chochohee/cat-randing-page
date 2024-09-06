@@ -112,4 +112,32 @@
     height: 76.6rem;
     margin: 13.4rem 34rem 0 0;
   }
+
+  /* section2 */
+.container2 {
+    margin-top: 8rem;
+  }
+
+  .container2 .container2-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 32rem; 
+  }
+
+  .container2 .container2-wrap img {
+    width: 66rem;
+    height: 39rem;
+    border-radius: 3rem;
+}
+
+  
+  .container2 .container2-wrap .title {
+    margin: 9.2rem 0 0 11rem;
+    font-size: var(--middle-fontsize);
+    line-height: var(--middle-lineheight);
+  }
+  
+  .container2 .container2-wrap .content {
+    margin: 3rem 0 0 11rem;
+  }
 }
