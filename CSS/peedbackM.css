@@ -225,7 +225,7 @@ header nav ul .header-btns .orange-btn {
 
 .container3 .container3-wrap2 {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 4rem 0 3rem 3.2rem;
   overflow-x: scroll;
 }
