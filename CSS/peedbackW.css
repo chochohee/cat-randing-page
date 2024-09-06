@@ -1,0 +1,115 @@
+@media (min-width: 758px) {
+  /* 공통 */
+  :root {
+    --white-color: #fff;
+    --black-color: #000;
+    --font-weight-bold: 700;
+    --big-fontsize: 4.8rem;
+    --big-lineheight: 6rem;
+    --middle-fontsize: 3.6rem;
+    --middle-lineheight: 4.5rem;
+    --small-font-size: 1.6rem;
+    --small-lineheight: 2rem;
+  }
+
+  .only-w {
+    display: inline;
+  }
+
+  .only-m {
+    display: none;
+  }
+
+  br .only-m {
+    display: none;
+  }
+
+  br .only-w {
+    display: inline;
+  }
+
+  .title {
+    font-size: 4.8rem;
+    line-height: 6rem;
+  }
+
+  .sub-title {
+    font-size: 3.6rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+  }
+
+  .content {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-indent: 0.2rem;
+  }
+
+  header {
+    height: 10.2rem;
+    padding: 0 35rem 0 32rem;
+  }
+
+  header nav .main-logo {
+    width: 13rem;
+    padding-top: 3.1rem;
+  }
+
+  /* sidebutton */
+  header nav ul .header-btns {
+    display: block;
+    background-color: transparent;
+    height: 10.2rem;
+  }
+
+  header nav ul .header-btns ul {
+    display: flex;
+    justify-content: end;
+  }
+
+  header nav ul .header-btns .nav-btn {
+    color: var(--black-color);
+    font-size: var(--small-font-size);
+    line-height: var(--small-lineheight);
+    margin-top: 4.1rem;
+  }
+
+  header nav ul .header-btns .orange-btn {
+    margin: 2.6rem 0 0 4rem;
+  }
+
+  /* section1 */
+  .container1 {
+    height: 79.8rem;
+    display: flex;
+    overflow: hidden;
+    
+  }
+
+  .container1 .container1-wrap {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .container1 .container1-wrap .title {
+    text-align: start;
+    margin: 20rem auto 0 32rem;
+    padding: 0;
+  }
+
+  .container1 .container1-wrap .content {
+    text-align: start;
+    margin: 4rem 0 3rem 32rem;
+    padding: 0 42.6rem 0 0;
+  }
+
+  .container1 .container1-wrap .orange-btn {
+    margin: 4rem 0 0 32rem;
+  }
+  .container1 img {
+    width: 41.5rem;
+    height: 76.6rem;
+    margin: 13.4rem 34rem 0 0;
+  }
+}

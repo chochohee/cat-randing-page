@@ -115,18 +115,15 @@ header nav .only-m button {
 }
 
 /* sidebar */
-
-header nav ul .header-btns {
-  width: 28.9rem;
-  height: 100vh;
-  background-color: var(--sidebar-backgroundcolor);
-}
-
-header nav ul .header-btns ul {
+header nav ul .header-btns{
   display: flex;
   justify-content: start;
   align-items: start;
   flex-direction: column;
+  width: 28.9rem;
+  height: 100vh;
+  background-color: var(--sidebar-backgroundcolor);
+  display: none;
 }
 
 header nav ul .header-btns .back-btn {
