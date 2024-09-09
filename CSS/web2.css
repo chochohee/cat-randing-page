@@ -1,0 +1,90 @@
+@media (min-width: 758px) {
+  /* 공통 */
+
+  .only-w {
+    display: inline;
+  }
+
+  .only-m {
+    display: none;
+  }
+
+  br .only-m {
+    display: none;
+  }
+
+  br .only-w {
+    display: inline;
+  }
+
+  /* header */
+
+  header {
+    height: 10.2rem;
+  }
+  header nav {
+    padding: 0 17vw;
+  }
+
+  header nav .main-logo {
+    min-width: 9.2rem;
+    width: 13rem;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  header nav ul .header-btns {
+    height: 10.2rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: transparent;
+  }
+
+  header nav ul .header-btns ul {
+    align-items: center;
+  }
+
+  header nav ul .header-btns .nav-btn {
+    color: #000;
+    padding: 0 3rem 0 0;
+  }
+
+  header nav ul .header-btns .orange-btn {
+    margin: 0 0 0 2rem;
+  }
+
+  /* section1 */
+  .container1 {
+    height: 25vw;
+    overflow: hidden;
+    padding: 0 17vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .container1 .container1-wrap {
+    justify-content: start;
+    align-items: start;
+  }
+
+  .container1 .container1-wrap .title {
+    text-align: start;
+    padding: 0;
+  }
+
+  .container1 .container1-wrap .content {
+    text-align: start;
+  }
+
+  .container1 img {
+    width: 41.5rem;
+    height: 89rem;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    margin: 3.2rem 0 0 0;
+    display: block;
+  }
+}
